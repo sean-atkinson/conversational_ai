@@ -1,14 +1,15 @@
-# CHATBOTS AND CONVERSATIONAL AI
+# Chatbots and Conversational AI
 
-# TABLE OF CONTENTS
+# Table of Contents
 <a id='table_of_contents'></a><br>
 [Executive Summary](#section_1)<br>
 [Challenge](#section_2)<br>
-[Data](#section_3)<br>
+[The Data](#section_3)<br>
 [Models and Conclusion](#section_4)<br>
+[Datasets, libraries, and additional tools used](#section_5)<br>
 
 <a id='section_1'></a>
-# EXECUTIVE SUMMARY
+# Executive Summary
 I have spent the majority of my adult life working in sales in some capacity. 
 
 I have worked in retail sales, corporate sales, and, most recently, in online sales as a copywriter and digital marketer.
@@ -49,12 +50,12 @@ Consequently, <a href="https://contingencies.org/how-persuasive-chatbots-might-b
 Unfortunately, due to the rigid nature and adherence to very strict if-this-then-that rules of most chatbots, the chatbots that companies currently deploy haven't been greeted with open arms by the masses.
 
 <a id='section_2'></a>
-# CHALLENGE
+# Challenge
 [(Back to table of contents)](#table_of_contents)<br>
 Can I use my knowdlegde of data science to create a chatbot capable of open and dynamic conversation?
 
 <a id='section_3'></a>
-# DATA
+# The data
 [(Back to table of contents)](#table_of_contents)<br>
 Initially, I had hoped to use the <a href="https://www.kaggle.com/Cornell-University/movie-dialog-corpus">Cornell Movie-Dialogs Corpus</a> as my dataset, but after initial disappointing results I pivoted to a [topical chat dataset](https://www.kaggle.com/arnavsharmaas/chatbot-dataset-topical-chat) from Amazon that consists of 8,000+ conversations and 184,000+ messages.
 
@@ -76,7 +77,7 @@ The eight broad topics are as follows:
 
 
 <a id='section_4'></a>
-# MODELS AND CONCLUSION
+# Models and conclusions
 [(Back to table of contents)](#table_of_contents)<br>
 Since my goal was open and dynamic conversation, I focused on using attention-based models for the creation of my chatbot.
 
@@ -93,3 +94,15 @@ If you are interested in interacting with my chatbots, you can do so here:
 - <a href="https://huggingface.co/satkinson/DialoGPT-small-marvin">GPT-2 Chatbot (small version)</a>
 
 - <a href="https://huggingface.co/satkinson/DialoGPT-medium-marvin">GPT-2 Chatbot (medium version)</a>
+
+<a id='section_4'></a>
+# Datasets, libraries, and additional tools used
+[(Back to table of contents)](#table_of_contents)<br>
+
+Datasets:
+- <a href="https://www.kaggle.com/Cornell-University/movie-dialog-corpus">Cornell Movie-Dialogs Corpus</a>
+- <a href="https://www.kaggle.com/arnavsharmaas/chatbot-dataset-topical-chat">Chatbot Dataset Topical Chat</a>
+
+Libraries: gensim, glob, logging, matplotlib, nltk, numpy, os, pandas, pickle, pyLDAvis, pytorch, random, re, seaborn, shutil, sklearn, spacy, sys, tensorflow, textblob, time, tqdm.notebook, transformers, typing, and wordcloud.
+
+Additional tools: Google Colab and Hugging Face.
