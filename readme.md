@@ -99,10 +99,10 @@ If you are interested in interacting with my chatbots, you can do so here:
 # Datasets, libraries, and additional tools used
 [(Back to table of contents)](#table_of_contents)<br>
 
-Datasets:
+<b>Datasets:</b>
 - <a href="https://www.kaggle.com/Cornell-University/movie-dialog-corpus">Cornell Movie-Dialogs Corpus</a>
 - <a href="https://www.kaggle.com/arnavsharmaas/chatbot-dataset-topical-chat">Chatbot Dataset Topical Chat</a>
 
-Libraries: gensim, glob, logging, matplotlib, nltk, numpy, os, pandas, pickle, pyLDAvis, pytorch, random, re, seaborn, shutil, sklearn, spacy, sys, tensorflow, textblob, time, tqdm.notebook, transformers, typing, and wordcloud.
+<b>Libraries:</b> gensim, glob, logging, matplotlib, nltk, numpy, os, pandas, pickle, pyLDAvis, pytorch, random, re, seaborn, shutil, sklearn, spacy, sys, tensorflow, textblob, time, tqdm.notebook, transformers, typing, and wordcloud.
 
-Additional tools: Google Colab and Hugging Face.
+<b>Additional tools:</b> Google Colab and Hugging Face.
