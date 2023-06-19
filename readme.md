@@ -51,12 +51,12 @@ Unfortunately, due to the rigid nature and adherence to very strict if-this-then
 
 <a id='section_2'></a>
 # Challenge
-[(Back to table of contents)](#table_of_contents)<br>
+[(Back to table of contents)](#table_of_contents)<br><br>
 Can I use my knowdlegde of data science to create a chatbot capable of open and dynamic conversation?
 
 <a id='section_3'></a>
 # The data
-[(Back to table of contents)](#table_of_contents)<br>
+[(Back to table of contents)](#table_of_contents)<br><br>
 Initially, I had hoped to use the <a href="https://www.kaggle.com/Cornell-University/movie-dialog-corpus">Cornell Movie-Dialogs Corpus</a> as my dataset, but after initial disappointing results I pivoted to a [topical chat dataset](https://www.kaggle.com/arnavsharmaas/chatbot-dataset-topical-chat) from Amazon that consists of 8,000+ conversations and 184,000+ messages.
 
 It was created by Arnav Sharma and is a more streamlined version of [this](https://github.com/alexa/Topical-Chat) original Amazon Alexa dataset.
@@ -78,7 +78,7 @@ The eight broad topics are as follows:
 
 <a id='section_4'></a>
 # Models and conclusions
-[(Back to table of contents)](#table_of_contents)<br>
+[(Back to table of contents)](#table_of_contents)<br><br>
 Since my goal was open and dynamic conversation, I focused on using attention-based models for the creation of my chatbot.
 
 Due to the time constraints, I limited the dataset I used to the first 50,000 entries and dedicated the majority of my time to fine-tuning GPT-2 models. 
