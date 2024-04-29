@@ -1,3 +1,5 @@
+*Obligatory: this was created before the public release of ChatGPT. Hence the use of GPT-2.*
+
 # Chatbots and Conversational AI
 
 # Table of Contents
